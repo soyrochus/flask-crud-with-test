@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "flask-crud"
+version = "0.1.0"
+description = "Simple crud example app"
+authors = ["JudahPaul16 https://github.com/judahpaul16/flask-crud"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+Flask = "^3.0.3"
+Flask-SQLAlchemy = "^3.1.1"
+flask-migrate = "^4.0.7"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
